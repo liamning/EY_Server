@@ -1,0 +1,12 @@
+[2018-04-10 17:13:41] [Error]: StartIndex cannot be less than zero.
+Parameter name: startIndex
+[2018-04-10 17:13:41] [Error]:    at System.String.Substring(Int32 startIndex, Int32 length)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-10 17:14:13] [Error]: StartIndex cannot be less than zero.
+Parameter name: startIndex
+[2018-04-10 17:14:13] [Error]:    at System.String.Substring(Int32 startIndex, Int32 length)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-10 18:00:01] [Error]: Object reference not set to an instance of an object.
+[2018-04-10 18:00:01] [Error]:    at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 41
+[2018-04-10 18:00:03] [Error]: Object reference not set to an instance of an object.
+[2018-04-10 18:00:03] [Error]:    at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 41

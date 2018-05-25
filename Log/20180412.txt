@@ -1,0 +1,94 @@
+[2018-04-12 09:19:28] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\Template\Invitation\Invitation.docx'.
+[2018-04-12 09:19:28] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at VotingCreditorGeneration.InitInvitation(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 113
+   at VotingCreditorGeneration.Get(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 37
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 391
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-12 09:20:01] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\Template\Invitation\Invitation.docx'.
+[2018-04-12 09:20:01] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at VotingCreditorGeneration.InitInvitation(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 113
+   at VotingCreditorGeneration.Get(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 37
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 391
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-12 09:20:26] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\Template\Invitation\Invitation.docx'.
+[2018-04-12 09:20:26] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at VotingCreditorGeneration.InitInvitation(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 113
+   at VotingCreditorGeneration.Get(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 37
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 391
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-12 09:23:05] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\Template\Invitation\Invitation.docx'.
+[2018-04-12 09:23:05] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at VotingCreditorGeneration.InitInvitation(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 113
+   at VotingCreditorGeneration.Get(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 37
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 391
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-12 09:23:22] [Error]: Value cannot be null.
+Parameter name: format
+[2018-04-12 09:23:22] [Error]:    at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at Template.UpdateTemplate(TemplateInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\Template.cs:line 14
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 128
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-12 09:24:07] [Error]: Value cannot be null.
+Parameter name: format
+[2018-04-12 09:24:07] [Error]:    at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at Template.UpdateTemplate(TemplateInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\Template.cs:line 14
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 128
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-12 09:24:10] [Error]: Value cannot be null.
+Parameter name: format
+[2018-04-12 09:24:10] [Error]:    at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at Template.UpdateTemplate(TemplateInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\Template.cs:line 14
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 128
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-12 09:33:23] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\Template\Invitation\Invitation.docx'.
+[2018-04-12 09:33:23] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   at VotingCreditorGeneration.InitInvitation(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 113
+   at VotingCreditorGeneration.Get(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 37
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 391
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-12 09:40:03] [Error]: Value cannot be null.
+Parameter name: format
+[2018-04-12 09:40:03] [Error]:    at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at Template.UpdateTemplate(TemplateInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\Template.cs:line 14
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 128
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-12 09:40:15] [Error]: Value cannot be null.
+Parameter name: format
+[2018-04-12 09:40:15] [Error]:    at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at Template.UpdateTemplate(TemplateInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\Template.cs:line 14
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 128
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-12 09:40:30] [Error]: Value cannot be null.
+Parameter name: format
+[2018-04-12 09:40:30] [Error]:    at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at Template.UpdateTemplate(TemplateInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\Template.cs:line 14
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 128
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-12 10:01:00] [Error]: Object reference not set to an instance of an object.
+[2018-04-12 10:01:00] [Error]:    at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 80
+[2018-04-12 10:01:51] [Error]: File Missing.
+[2018-04-12 10:01:51] [Error]:    at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 75
+[2018-04-12 10:02:35] [Error]: File Missing.
+[2018-04-12 10:02:35] [Error]:    at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 76
+[2018-04-12 14:15:05] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-12 14:15:05] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ClientMember.IsExisted(ClientMemberInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ClientMember.cs:line 41
+   at ClientMember.Save(ClientMemberInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ClientMember.cs:line 56
+   at ClientMaster.Update(ClientMasterInfo clientMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ClientMaster.cs:line 560
+   at ClientMaster.Save(ClientMasterInfo clientMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ClientMaster.cs:line 74
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 72
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68

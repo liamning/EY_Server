@@ -1,0 +1,78 @@
+[2018-05-02 11:27:17] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:27:18] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:27:21] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:27:21] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:32:07] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:32:07] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:32:12] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:32:12] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:32:13] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:32:13] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:32:14] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:32:14] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:32:15] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:32:15] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:32:16] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:32:16] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:32:18] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:32:18] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:32:21] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:32:21] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:32:27] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:32:27] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:32:49] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:32:49] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:32:59] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:32:59] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:33:00] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:33:00] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:33:01] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:33:01] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:33:01] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:33:01] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:35:57] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:35:57] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:35:59] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:35:59] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:35:59] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:35:59] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:36:00] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:36:00] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:36:01] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:36:01] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:36:05] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:36:05] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:36:06] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:36:06] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:36:06] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:36:06] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:36:07] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:36:07] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76
+[2018-05-02 11:36:08] [Error]: Object reference not set to an instance of an object.
+[2018-05-02 11:36:08] [Error]:    at HandlerBase.getAction() in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 28
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 76

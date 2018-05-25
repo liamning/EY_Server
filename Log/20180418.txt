@@ -1,0 +1,328 @@
+[2018-04-18 11:20:15] [Error]: Input string was not in a correct format.
+[2018-04-18 11:20:15] [Error]:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Decimal.Parse(String s)
+   at CreditorMaster.UpdateChangeRecordLog(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1120
+   at CreditorMaster.UpdateCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1055
+   at CreditorMaster.SaveCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 260
+   at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1043
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 128
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 93
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 11:32:02] [Error]: Invalid column name 'CreditType'.
+[2018-04-18 11:32:02] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorMaster.IsCreditorAuditDetailExisted(String clientID, String creditorID, String creditType, String currency) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1199
+   at CreditorMaster.SaveCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 259
+   at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1044
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 128
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 93
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 11:32:55] [Error]: Must declare the scalar variable "@CreditType".
+[2018-04-18 11:32:55] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorMaster.UpdateChangeRecordLog(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1100
+   at CreditorMaster.UpdateCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1056
+   at CreditorMaster.SaveCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 260
+   at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1044
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 128
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 93
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 11:34:59] [Error]: Must declare the scalar variable "@CreditType".
+[2018-04-18 11:34:59] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorMaster.UpdateChangeRecordLog(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1100
+   at CreditorMaster.UpdateCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1056
+   at CreditorMaster.SaveCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 260
+   at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1044
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 128
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 93
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 11:41:23] [Error]: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[2018-04-18 11:41:23] [Error]:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 250
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 11:47:43] [Error]: Object reference not set to an instance of an object.
+[2018-04-18 11:47:43] [Error]:    at CreditorMaster.UpdateChangeRecordLog(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1132
+   at CreditorMaster.UpdateCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1056
+   at CreditorMaster.SaveCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 260
+   at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1044
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 128
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 93
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 11:47:53] [Error]: Object reference not set to an instance of an object.
+[2018-04-18 11:47:53] [Error]:    at CreditorMaster.UpdateChangeRecordLog(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1132
+   at CreditorMaster.UpdateCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1056
+   at CreditorMaster.SaveCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 260
+   at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1044
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 128
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 93
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 11:49:11] [Error]: Object reference not set to an instance of an object.
+[2018-04-18 11:49:11] [Error]:    at CreditorMaster.UpdateChangeRecordLog(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1132
+   at CreditorMaster.UpdateCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1056
+   at CreditorMaster.SaveCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 260
+   at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1044
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 128
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 93
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 11:51:14] [Error]: Object reference not set to an instance of an object.
+[2018-04-18 11:51:14] [Error]:    at CreditorMaster.UpdateChangeRecordLog(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1132
+   at CreditorMaster.UpdateCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1056
+   at CreditorMaster.SaveCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 260
+   at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1044
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 128
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 93
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 11:52:00] [Error]: Object reference not set to an instance of an object.
+[2018-04-18 11:52:00] [Error]:    at CreditorMaster.UpdateChangeRecordLog(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1132
+   at CreditorMaster.UpdateCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1056
+   at CreditorMaster.SaveCreditorAuditDetail(CreditorAuditDetailInfo creditorAuditDetailInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 260
+   at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1044
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 128
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 93
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 15:58:11] [Error]: Object reference not set to an instance of an object.
+[2018-04-18 15:58:11] [Error]:    at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 96
+[2018-04-18 16:16:08] [Error]: A generic error occurred in GDI+.
+[2018-04-18 16:16:08] [Error]:    at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at ReportHelper.GenQRCode(String input) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 229
+   at ReportHelper.readRTF(String templatePath, Dictionary`2 replaceDictionary, String qrCodeInput) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 36
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 89
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 16:48:43] [Error]: A generic error occurred in GDI+.
+[2018-04-18 16:48:43] [Error]:    at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at ReportHelper.GenQRCode(String input) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 229
+   at ReportHelper.readRTF(String templatePath, Dictionary`2 replaceDictionary, String qrCodeInput) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 36
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 89
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 17:09:45] [Error]: An item with the same key has already been added.
+[2018-04-18 17:09:45] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , Object , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 138
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 17:11:31] [Error]: An item with the same key has already been added.
+[2018-04-18 17:11:31] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , Object , Object )
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 138
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 17:11:36] [Error]: A generic error occurred in GDI+.
+[2018-04-18 17:11:36] [Error]:    at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at ReportHelper.GenQRCode(String input) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 229
+   at ReportHelper.readRTF(String templatePath, Dictionary`2 replaceDictionary, String qrCodeInput) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 36
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 137
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 17:12:14] [Error]: A generic error occurred in GDI+.
+[2018-04-18 17:12:14] [Error]:    at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at ReportHelper.GenQRCode(String input) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 229
+   at ReportHelper.readRTF(String templatePath, Dictionary`2 replaceDictionary, String qrCodeInput) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 36
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 137
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 17:12:38] [Error]: A generic error occurred in GDI+.
+[2018-04-18 17:12:38] [Error]:    at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at ReportHelper.GenQRCode(String input) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 229
+   at ReportHelper.readRTF(String templatePath, Dictionary`2 replaceDictionary, String qrCodeInput) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 36
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 137
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 17:14:13] [Error]: A generic error occurred in GDI+.
+[2018-04-18 17:14:13] [Error]:    at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at ReportHelper.GenQRCode(String input) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 229
+   at ReportHelper.readRTF(String templatePath, Dictionary`2 replaceDictionary, String qrCodeInput) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\ReportHelper.cs:line 36
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 137
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 18:15:35] [Error]: Ambiguous column name 'ClientID'.
+[2018-04-18 18:15:35] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 117
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 18:15:56] [Error]: Ambiguous column name 'ClientID'.
+[2018-04-18 18:15:56] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 117
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 18:16:20] [Error]: Ambiguous column name 'ClientID'.
+[2018-04-18 18:16:20] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 117
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 18:17:02] [Error]: Ambiguous column name 'ClientID'.
+[2018-04-18 18:17:02] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 117
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 18:17:11] [Error]: An item with the same key has already been added.
+[2018-04-18 18:17:11] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , String , Object )
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 152
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 18:17:47] [Error]: An item with the same key has already been added.
+[2018-04-18 18:17:47] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , String , Object )
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 152
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 18:18:21] [Error]: An item with the same key has already been added.
+[2018-04-18 18:18:21] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , String , Object )
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 152
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-18 18:40:36] [Error]: Incorrect syntax near 'CreditorMaster'.
+[2018-04-18 18:40:36] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at OnlineVotePage.GetCreditorName(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 262
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 316
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 18:40:40] [Error]: Incorrect syntax near 'CreditorMaster'.
+[2018-04-18 18:40:40] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at OnlineVotePage.GetCreditorName(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 262
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 316
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 18:42:46] [Error]: Object reference not set to an instance of an object.
+[2018-04-18 18:42:46] [Error]:    at OnlineVotePage.TakeAttendance(AttendanceInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 204
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 49
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 18:44:42] [Error]: Object reference not set to an instance of an object.
+[2018-04-18 18:44:42] [Error]:    at OnlineVotePage.TakeAttendance(AttendanceInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 204
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 49
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 18:45:30] [Error]: Object reference not set to an instance of an object.
+[2018-04-18 18:45:30] [Error]:    at OnlineVotePage.TakeAttendance(AttendanceInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 204
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 49
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 18:51:57] [Error]: Object reference not set to an instance of an object.
+[2018-04-18 18:51:57] [Error]:    at OnlineVotePage.TakeAttendance(AttendanceInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 204
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 49
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-18 18:56:54] [Error]: Object reference not set to an instance of an object.
+[2018-04-18 18:56:54] [Error]:    at OnlineVotePage.TakeAttendance(AttendanceInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 204
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 49
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68

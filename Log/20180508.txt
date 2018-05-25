@@ -1,0 +1,370 @@
+[2018-05-08 09:13:51] [Error]: This SqlTransaction has completed; it is no longer usable.
+[2018-05-08 09:13:51] [Error]:    at System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 363
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:13:51] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:13:51] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:14:31] [Error]: This SqlTransaction has completed; it is no longer usable.
+[2018-05-08 09:14:31] [Error]:    at System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 363
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:14:31] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:14:31] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:16:40] [Error]: This SqlTransaction has completed; it is no longer usable.
+[2018-05-08 09:16:40] [Error]:    at System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 363
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:16:40] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:16:40] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:17:31] [Error]: This SqlTransaction has completed; it is no longer usable.
+[2018-05-08 09:17:31] [Error]:    at System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 363
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:17:31] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:17:31] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:19:56] [Error]: Object reference not set to an instance of an object.
+[2018-05-08 09:19:56] [Error]:    at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 245
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:19:56] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:19:56] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:20:34] [Error]: Object reference not set to an instance of an object.
+[2018-05-08 09:20:34] [Error]:    at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 245
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:20:34] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:20:34] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:21:11] [Error]: Object reference not set to an instance of an object.
+[2018-05-08 09:21:11] [Error]:    at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 245
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:21:11] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:21:11] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:22:24] [Error]: Object reference not set to an instance of an object.
+[2018-05-08 09:22:24] [Error]:    at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 245
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:22:24] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:22:24] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:23:38] [Error]: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[2018-05-08 09:23:38] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorAmount.GetCreditorAmountList(String ClientID, String CreditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorAmount.cs:line 61
+   at CreditorMaster.GetCreditorForExport(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1036
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 227
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:23:38] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:23:38] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:24:46] [Error]: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[2018-05-08 09:24:46] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorAmount.GetCreditorAmountList(String ClientID, String CreditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorAmount.cs:line 61
+   at CreditorMaster.GetCreditorForExport(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1036
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 227
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:24:46] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:24:46] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:26:11] [Error]: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[2018-05-08 09:26:11] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorAmount.GetCreditorAmountList(String ClientID, String CreditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorAmount.cs:line 61
+   at CreditorMaster.GetCreditorForExport(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1036
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 227
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:26:11] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:26:11] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:29:25] [Error]: Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[2018-05-08 09:29:25] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorAmount.GetCreditorAmountList(String ClientID, String CreditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorAmount.cs:line 61
+   at CreditorMaster.GetCreditorForExport(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1036
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 227
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:29:25] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:29:25] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:48:12] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-08 09:48:12] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CreditorAmount.GetCreditorAmountList(String ClientID, String CreditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorAmount.cs:line 57
+   at CreditorMaster.GetCreditorForExport(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1036
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 227
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:48:12] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:48:12] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:48:42] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-08 09:48:42] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CreditorAmount.GetCreditorAmountList(String ClientID, String CreditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorAmount.cs:line 57
+   at CreditorMaster.GetCreditorForExport(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1036
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 227
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:48:42] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:48:42] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:49:36] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-08 09:49:36] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CreditorAmount.GetCreditorAmountList(String ClientID, String CreditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorAmount.cs:line 57
+   at CreditorMaster.GetCreditorForExport(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1036
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 227
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:49:36] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:49:36] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:50:09] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-08 09:50:09] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CreditorAmount.GetCreditorAmountList(String ClientID, String CreditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorAmount.cs:line 57
+   at CreditorMaster.GetCreditorForExport(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1036
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 227
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:50:09] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:50:09] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:50:24] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-08 09:50:24] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CreditorAmount.GetCreditorAmountList(String ClientID, String CreditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorAmount.cs:line 57
+   at CreditorMaster.GetCreditorForExport(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1036
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 227
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:50:24] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:50:24] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:51:00] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-08 09:51:00] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CreditorAmount.GetCreditorAmountList(String ClientID, String CreditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorAmount.cs:line 57
+   at CreditorMaster.GetCreditorForExport(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1036
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 227
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:51:01] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:51:01] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:52:08] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-08 09:52:08] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CreditorAmount.GetCreditorAmountList(String ClientID, String CreditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorAmount.cs:line 57
+   at CreditorMaster.GetCreditorForExport(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1036
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 227
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:52:38] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:52:38] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:53:23] [Error]: Value was either too large or too small for an Int32.
+[2018-05-08 09:53:23] [Error]:    at System.Decimal.ToInt32(Decimal d)
+   at System.Decimal.op_Explicit(Decimal value)
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 248
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:53:23] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:53:23] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-08 09:56:01] [Error]: Value was either too large or too small for an Int32.
+[2018-05-08 09:56:01] [Error]:    at System.Decimal.ToInt32(Decimal d)
+   at System.Decimal.op_Explicit(Decimal value)
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 248
+   at CreditorMaster.Save(Dictionary`2 creditorDict) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 364
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 560
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-08 09:56:02] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-05-08 09:56:02] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91

@@ -1,0 +1,205 @@
+[2018-04-20 09:41:58] [Error]: Nullable object must have a value.
+[2018-04-20 09:41:58] [Error]:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 161
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 331
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 111
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 09:41:59] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 09:41:59] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 09:42:25] [Error]: Nullable object must have a value.
+[2018-04-20 09:42:25] [Error]:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 161
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 331
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 111
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 09:42:25] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 09:42:25] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 09:42:58] [Error]: Nullable object must have a value.
+[2018-04-20 09:42:58] [Error]:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 161
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 331
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 111
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 09:42:58] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 09:42:58] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 09:43:38] [Error]: Nullable object must have a value.
+[2018-04-20 09:43:38] [Error]:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at CreditorMaster.Compare(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 161
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 331
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 111
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 09:43:38] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 09:43:38] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 11:01:25] [Error]: The best overloaded method match for 'System.Collections.Generic.List<string>.Add(string)' has some invalid arguments
+[2018-04-20 11:01:25] [Error]:    at CallSite.Target(Closure , CallSite , List`1 , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at CreditorMaster.GetSummary(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 452
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 409
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 111
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 11:01:25] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 11:01:25] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 11:02:30] [Error]: The best overloaded method match for 'System.Collections.Generic.List<string>.Add(string)' has some invalid arguments
+[2018-04-20 11:02:30] [Error]:    at CallSite.Target(Closure , CallSite , List`1 , Object )
+   at CreditorMaster.GetSummary(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 452
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 409
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 111
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 11:02:30] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 11:02:30] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 11:24:54] [Error]: The best overloaded method match for 'System.Collections.Generic.List<decimal>.Add(decimal)' has some invalid arguments
+[2018-04-20 11:24:54] [Error]:    at CallSite.Target(Closure , CallSite , List`1 , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at CreditorMaster.GetSummary(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 480
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 411
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 111
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 11:24:54] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 11:24:54] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 11:25:17] [Error]: The best overloaded method match for 'System.Collections.Generic.List<decimal>.Add(decimal)' has some invalid arguments
+[2018-04-20 11:25:17] [Error]:    at CallSite.Target(Closure , CallSite , List`1 , Object )
+   at CreditorMaster.GetSummary(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 480
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 411
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 111
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 11:25:17] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 11:25:17] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 11:26:25] [Error]: The best overloaded method match for 'System.Collections.Generic.List<decimal>.Add(decimal)' has some invalid arguments
+[2018-04-20 11:26:25] [Error]:    at CallSite.Target(Closure , CallSite , List`1 , Object )
+   at CreditorMaster.GetSummary(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 480
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 411
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 111
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 11:26:25] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 11:26:25] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 11:26:35] [Error]: The best overloaded method match for 'System.Collections.Generic.List<decimal>.Add(decimal)' has some invalid arguments
+[2018-04-20 11:26:35] [Error]:    at CallSite.Target(Closure , CallSite , List`1 , Object )
+   at CreditorMaster.GetSummary(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 480
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 411
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 111
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 11:26:35] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 11:26:35] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 11:27:24] [Error]: The best overloaded method match for 'System.Collections.Generic.List<decimal>.Add(decimal)' has some invalid arguments
+[2018-04-20 11:27:24] [Error]:    at CallSite.Target(Closure , CallSite , List`1 , Object )
+   at CreditorMaster.GetSummary(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 480
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 411
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 111
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 11:27:25] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 11:27:25] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 11:29:12] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000001\undefined'.
+[2018-04-20 11:29:12] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 74
+[2018-04-20 11:52:28] [Error]: Object reference not set to an instance of an object.
+[2018-04-20 11:52:28] [Error]:    at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1269
+   at CreditorMaster.Delete(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1475
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 445
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 11:53:26] [Error]: Object reference not set to an instance of an object.
+[2018-04-20 11:53:26] [Error]:    at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1269
+   at CreditorMaster.Delete(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1475
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 445
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 11:54:06] [Error]: Object reference not set to an instance of an object.
+[2018-04-20 11:54:06] [Error]:    at CreditorMaster.Update(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1269
+   at CreditorMaster.Delete(String clientID, String creditorID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1475
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 445
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 13:52:21] [Error]: Incorrect syntax near the keyword 'and'.
+[2018-04-20 13:52:21] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at LiveVotePage.SearchUnVoteCreditor(String clientID, Int32 eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\LiveVotePage.cs:line 168
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 30
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 68
+[2018-04-20 17:51:04] [Error]: The best overloaded method match for 'System.Collections.Generic.Dictionary<string,string>.Add(string, string)' has some invalid arguments
+[2018-04-20 17:51:04] [Error]:    at CallSite.Target(Closure , CallSite , Dictionary`2 , String , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 86
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-20 17:51:43] [Error]: The best overloaded method match for 'System.Collections.Generic.Dictionary<string,string>.Add(string, string)' has some invalid arguments
+[2018-04-20 17:51:43] [Error]:    at CallSite.Target(Closure , CallSite , Dictionary`2 , String , Object )
+   at VotingCreditorGeneration.GenerateVotingForm(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 86
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 54
+[2018-04-20 18:48:42] [Error]: The call is ambiguous between the following methods or properties: 'NPOI.SS.UserModel.ICell.SetCellValue(NPOI.SS.UserModel.IRichTextString)' and 'NPOI.SS.UserModel.ICell.SetCellValue(string)'
+[2018-04-20 18:48:42] [Error]:    at CallSite.Target(Closure , CallSite , ICell , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at CreditorMaster.GenerateCreditorAmountReport(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 86
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 63
+[2018-04-20 18:50:32] [Error]: The call is ambiguous between the following methods or properties: 'NPOI.SS.UserModel.ICell.SetCellValue(NPOI.SS.UserModel.IRichTextString)' and 'NPOI.SS.UserModel.ICell.SetCellValue(string)'
+[2018-04-20 18:50:32] [Error]:    at CallSite.Target(Closure , CallSite , ICell , Object )
+   at CreditorMaster.GenerateCreditorAmountReport(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 86
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 63
+[2018-04-20 18:50:37] [Error]: The best overloaded method match for 'NPOI.SS.UserModel.ICell.SetCellValue(double)' has some invalid arguments
+[2018-04-20 18:50:37] [Error]:    at CallSite.Target(Closure , CallSite , ICell , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at CreditorMaster.GenerateCreditorAmountReport(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 86
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 63
+[2018-04-20 18:50:56] [Error]: The best overloaded method match for 'NPOI.SS.UserModel.ICell.SetCellValue(double)' has some invalid arguments
+[2018-04-20 18:50:56] [Error]:    at CallSite.Target(Closure , CallSite , ICell , Object )
+   at CreditorMaster.GenerateCreditorAmountReport(String clientID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 86
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 63

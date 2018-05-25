@@ -1,0 +1,91 @@
+[2018-05-11 09:39:04] [Error]: Object reference not set to an instance of an object.
+[2018-05-11 09:39:04] [Error]:    at CreditorMaster.ImportContact(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 728
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 135
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-11 09:39:24] [Error]: Object reference not set to an instance of an object.
+[2018-05-11 09:39:24] [Error]:    at CreditorMaster.ImportContact(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 728
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 135
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-11 10:36:05] [Error]: Incorrect syntax near ','.
+[2018-05-11 10:36:05] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Dapper.SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition& command, Action`2 paramReader)
+   at Dapper.SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition& command)
+   at Dapper.SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorMaster.UpdateContact(CreditorMasterInfo creditorMasterInfo) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1912
+   at CreditorMaster.SaveContact(List`1 creditorList) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 395
+   at CreditorMaster.ImportContact(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 790
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 135
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-11 10:45:51] [Error]: Cannot get a text value from a numeric cell
+[2018-05-11 10:45:51] [Error]:    at NPOI.HSSF.UserModel.HSSFCell.get_RichStringCellValue()
+   at NPOI.HSSF.UserModel.HSSFCell.get_StringCellValue()
+   at CreditorMaster.ImportContact(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 793
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 135
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-11 10:47:43] [Error]: Cannot get a text value from a numeric cell
+[2018-05-11 10:47:43] [Error]:    at NPOI.HSSF.UserModel.HSSFCell.get_RichStringCellValue()
+   at NPOI.HSSF.UserModel.HSSFCell.get_StringCellValue()
+   at CreditorMaster.ImportContact(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 793
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 135
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-11 12:00:16] [Error]: Incorrect syntax near 'and'.
+[2018-05-11 12:00:16] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorMaster.Get(String clientID, String creditorID, String userID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1254
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 388
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-11 12:00:28] [Error]: Incorrect syntax near 'and'.
+[2018-05-11 12:00:28] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorMaster.Get(String clientID, String creditorID, String userID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 1254
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 388
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-11 15:09:31] [Error]: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+[2018-05-11 15:09:31] [Error]:    at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at Template.UpdateTemplate(TemplateInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\Template.cs:line 14
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 153
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-11 15:09:37] [Error]: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+[2018-05-11 15:09:37] [Error]:    at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at Template.UpdateTemplate(TemplateInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\Template.cs:line 14
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 153
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-11 15:12:39] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/137&X6CLOG3XQAQIWHOMDETF
+[2018-05-11 15:12:39] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/138&LGOPEBVTFPA61061DW4K

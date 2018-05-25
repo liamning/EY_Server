@@ -1,0 +1,288 @@
+[2018-05-09 10:42:47] [Error]: The given key was not present in the dictionary.
+[2018-05-09 10:42:47] [Error]:    at System.ThrowHelper.ThrowKeyNotFoundException()
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 568
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 10:42:47] [Error]: Could not find a part of the path 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000009\undefined'.
+[2018-05-09 10:42:47] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-09 10:45:20] [Error]: Object reference not set to an instance of an object.
+[2018-05-09 10:45:20] [Error]:    at CreditorMaster.CopyRow(HSSFWorkbook workbook, ISheet destWorksheet, ISheet resultSheet, Int32 sourceRowNum, Int32 destinationRowNum) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 828
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 597
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 10:45:20] [Error]: Could not find a part of the path 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000009\undefined'.
+[2018-05-09 10:45:20] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-09 10:46:24] [Error]: Object reference not set to an instance of an object.
+[2018-05-09 10:46:24] [Error]:    at CreditorMaster.CopyRow(HSSFWorkbook workbook, ISheet destWorksheet, ISheet resultSheet, Int32 sourceRowNum, Int32 destinationRowNum) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 828
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 597
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 10:46:24] [Error]: Could not find a part of the path 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000009\undefined'.
+[2018-05-09 10:46:24] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-09 10:47:10] [Error]: Object reference not set to an instance of an object.
+[2018-05-09 10:47:10] [Error]:    at CreditorMaster.CopyRow(HSSFWorkbook workbook, ISheet destWorksheet, ISheet resultSheet, Int32 sourceRowNum, Int32 destinationRowNum) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 828
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 597
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 10:47:10] [Error]: Could not find a part of the path 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000009\undefined'.
+[2018-05-09 10:47:10] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-09 11:02:19] [Error]: Object reference not set to an instance of an object.
+[2018-05-09 11:02:19] [Error]:    at CreditorMaster.CopyRow(HSSFWorkbook workbook, ISheet destWorksheet, ISheet resultSheet, Int32 sourceRowNum, Int32 destinationRowNum) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 828
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 597
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 11:02:20] [Error]: Could not find a part of the path 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000009\undefined'.
+[2018-05-09 11:02:20] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-09 11:02:59] [Error]: The maximum number of cell styles was exceeded. You can define up to 4000 styles in a .xls workbook
+[2018-05-09 11:02:59] [Error]:    at NPOI.HSSF.UserModel.HSSFWorkbook.CreateCellStyle()
+   at CreditorMaster.CopyRow(HSSFWorkbook workbook, ISheet destWorksheet, ISheet resultSheet, Int32 sourceRowNum, Int32 destinationRowNum) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 844
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 622
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 11:02:59] [Error]: Could not find a part of the path 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000009\undefined'.
+[2018-05-09 11:02:59] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-09 11:25:47] [Error]: The maximum number of cell styles was exceeded. You can define up to 4000 styles in a .xls workbook
+[2018-05-09 11:25:47] [Error]:    at NPOI.HSSF.UserModel.HSSFWorkbook.CreateCellStyle()
+   at CreditorMaster.CopyRow(HSSFWorkbook workbook, ISheet destWorksheet, ISheet resultSheet, Int32 sourceRowNum, Int32 destinationRowNum) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 844
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 622
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 11:25:47] [Error]: Could not find a part of the path 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000009\undefined'.
+[2018-05-09 11:25:47] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-09 11:33:47] [Error]: Sheet index (2) is out of range (0..1)
+[2018-05-09 11:33:47] [Error]:    at NPOI.HSSF.UserModel.HSSFWorkbook.ValidateSheetIndex(Int32 index)
+   at NPOI.HSSF.UserModel.HSSFWorkbook.RemoveSheetAt(Int32 index)
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 590
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 11:33:47] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000009\undefined'.
+[2018-05-09 11:33:47] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-09 11:34:22] [Error]: Sheet index (2) is out of range (0..1)
+[2018-05-09 11:34:22] [Error]:    at NPOI.HSSF.UserModel.HSSFWorkbook.ValidateSheetIndex(Int32 index)
+   at NPOI.HSSF.UserModel.HSSFWorkbook.RemoveSheetAt(Int32 index)
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 590
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 11:34:23] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000009\undefined'.
+[2018-05-09 11:34:23] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-09 11:35:05] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000009\undefined'.
+[2018-05-09 11:35:05] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 91
+[2018-05-09 15:52:41] [Error]: An item with the same key has already been added.
+[2018-05-09 15:52:41] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 315
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 15:53:09] [Error]: An item with the same key has already been added.
+[2018-05-09 15:53:09] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , Object , String )
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 315
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 15:54:13] [Error]: An item with the same key has already been added.
+[2018-05-09 15:54:13] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , Object , String )
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 315
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 15:54:37] [Error]: An item with the same key has already been added.
+[2018-05-09 15:54:37] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , Object , String )
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 315
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 15:56:43] [Error]: An item with the same key has already been added.
+[2018-05-09 15:56:43] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , Object , String )
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 315
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 15:58:56] [Error]: An item with the same key has already been added.
+[2018-05-09 15:58:56] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 312
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 16:07:37] [Error]: Invalid column name 'CreditType'.
+[2018-05-09 16:07:37] [Error]:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at Dapper.SqlMapper.Query(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 290
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 16:08:50] [Error]: An item with the same key has already been added.
+[2018-05-09 16:08:50] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 330
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 16:10:11] [Error]: An item with the same key has already been added.
+[2018-05-09 16:10:11] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 330
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 16:10:24] [Error]: An item with the same key has already been added.
+[2018-05-09 16:10:24] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 330
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 16:11:06] [Error]: An item with the same key has already been added.
+[2018-05-09 16:11:06] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , String , Object )
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 330
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 16:11:20] [Error]: An item with the same key has already been added.
+[2018-05-09 16:11:20] [Error]:    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at CallSite.Target(Closure , CallSite , Dictionary`2 , String , Object )
+   at VotingCreditorGeneration.GenerateInvitation(String clientID, String EventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingCreditorGeneration.cs:line 330
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 43
+[2018-05-09 16:27:26] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/125&7I31TGTCU8RVTNSP0H1Z
+[2018-05-09 16:27:26] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/126&QYFN7YX8M3HZ00XRMSCE
+[2018-05-09 16:27:48] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-09 16:27:48] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 324
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 16:29:15] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-09 16:29:15] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 324
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 16:29:26] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-09 16:29:26] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 324
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 16:29:43] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-09 16:29:43] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 324
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 16:30:24] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-09 16:30:24] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 324
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 16:32:52] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-09 16:32:52] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 324
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 46
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 16:33:42] [Error]: The connection was not closed. The connection's current state is open.
+[2018-05-09 16:33:42] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 324
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 46
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 18:16:11] [Error]: Input string was not in a correct format.
+[2018-05-09 18:16:11] [Error]:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 447
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 18:16:13] [Error]: Input string was not in a correct format.
+[2018-05-09 18:16:13] [Error]:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 447
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 18:16:30] [Error]: Input string was not in a correct format.
+[2018-05-09 18:16:30] [Error]:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 447
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 18:16:42] [Error]: Input string was not in a correct format.
+[2018-05-09 18:16:42] [Error]:    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 447
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-05-09 18:25:44] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/127&UNZA5V8QHH8LE5H2YNM3
+[2018-05-09 18:25:44] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/128&S70AZF04UM4HTYIU112A
+[2018-05-09 18:33:46] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/
+[2018-05-09 18:33:47] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/129&TF92E7KG5V74XLIHV6YW
+[2018-05-09 18:33:47] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/130&EXXEXAK1C0ESD4Q6R74A
+[2018-05-09 18:35:52] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/
+[2018-05-09 18:35:52] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/131&BF21WC9B5EKYX4Q5S5FE
+[2018-05-09 18:35:52] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/132&XSDFQO125MZXCXU856SV
+[2018-05-09 18:35:59] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/133&NF5NBWND2FZMMMVKCKD1
+[2018-05-09 18:36:00] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/134&EOK7PKRIB9K79BC77GRQ
+[2018-05-09 18:38:52] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/135&GNE0C26WABKP2MO22ZO0
+[2018-05-09 18:38:52] [Info]: http://localhost:8080/#!/index_Online/OnlineVotePage/136&7T4K4WFGGSG78KGA537X

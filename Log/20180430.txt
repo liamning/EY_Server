@@ -1,0 +1,377 @@
+[2018-04-30 13:46:07] [Error]: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[2018-04-30 13:46:08] [Error]:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OnlineVotePage.IsOutOfTimeRange(String clientID, Int32 eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 393
+   at OnlineVotePage.Get(String clientID, String creditorID, Int32 eventID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 360
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 41
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 13:46:17] [Error]: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[2018-04-30 13:46:17] [Error]:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OnlineVotePage.IsOutOfTimeRange(String clientID, Int32 eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 393
+   at OnlineVotePage.Get(String clientID, String creditorID, Int32 eventID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 360
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 41
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 13:46:18] [Error]: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[2018-04-30 13:46:18] [Error]:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OnlineVotePage.IsOutOfTimeRange(String clientID, Int32 eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 393
+   at OnlineVotePage.Get(String clientID, String creditorID, Int32 eventID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 360
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 41
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 13:46:19] [Error]: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[2018-04-30 13:46:19] [Error]:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OnlineVotePage.IsOutOfTimeRange(String clientID, Int32 eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 393
+   at OnlineVotePage.Get(String clientID, String creditorID, Int32 eventID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 360
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 41
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 13:46:19] [Error]: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[2018-04-30 13:46:19] [Error]:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OnlineVotePage.IsOutOfTimeRange(String clientID, Int32 eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 393
+   at OnlineVotePage.Get(String clientID, String creditorID, Int32 eventID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 360
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 41
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 13:46:20] [Error]: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[2018-04-30 13:46:20] [Error]:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OnlineVotePage.IsOutOfTimeRange(String clientID, Int32 eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 393
+   at OnlineVotePage.Get(String clientID, String creditorID, Int32 eventID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 360
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 41
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 13:46:20] [Error]: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[2018-04-30 13:46:20] [Error]:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OnlineVotePage.IsOutOfTimeRange(String clientID, Int32 eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 393
+   at OnlineVotePage.Get(String clientID, String creditorID, Int32 eventID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 360
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 41
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 13:46:22] [Error]: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+[2018-04-30 13:46:22] [Error]:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at OnlineVotePage.IsOutOfTimeRange(String clientID, Int32 eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 393
+   at OnlineVotePage.Get(String clientID, String creditorID, Int32 eventID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 360
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 41
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 13:50:09] [Error]: Value cannot be null.
+Parameter name: s
+[2018-04-30 13:50:09] [Error]:    at System.Convert.FromBase64String(String s)
+   at CreditorMaster.Import(ImportInfo info) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 330
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 124
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 13:50:09] [Error]: Could not find file 'C:\Users\Ning\Documents\JKTeam\EY\Source\app_build\tmp\CreditImportLog\C00000006\undefined'.
+[2018-04-30 13:50:09] [Error]:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at ReportHandler.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\ReportHandler.ashx:line 83
+[2018-04-30 16:33:11] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:33:11] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at VotingProjection.GetDescription(String clientID, Int32 eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingProjection.cs:line 69
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 39
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:33:53] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:33:53] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at VotingEventSetupMaster.GetEventIDList(String clientID, String eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingEventSetupMaster.cs:line 23
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 261
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:34:08] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:34:08] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at VotingEventSetupMaster.GetEventIDList(String clientID, String eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingEventSetupMaster.cs:line 23
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 251
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:34:23] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:34:23] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at VotingEventSetupMaster.GetEventIDList(String clientID, String eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingEventSetupMaster.cs:line 23
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 283
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:34:39] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:34:39] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CreditorMaster.GetCreditorIDList(String clientID, String creditorID, String userID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\CreditorMaster.cs:line 706
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 227
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:34:54] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:34:54] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at VotingEventSetupMaster.GetEventIDList(String clientID, String eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingEventSetupMaster.cs:line 23
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 251
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:35:09] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:35:09] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at VotingEventSetupMaster.GetEventIDList(String clientID, String eventID) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\VotingEventSetupMaster.cs:line 23
+   at AjaxHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\AjaxHandler.ashx:line 251
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:35:29] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:35:29] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:35:44] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:35:44] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:35:59] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:35:59] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:36:14] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:36:14] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:36:29] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:36:29] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:36:44] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:36:44] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:36:59] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:36:59] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:37:15] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:37:15] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:37:30] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:37:30] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:37:45] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:37:45] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:38:00] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:38:00] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:38:15] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:38:15] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:38:30] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:38:30] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 16:38:45] [Error]: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+[2018-04-30 16:38:45] [Error]:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StaffProfile.Login(String staffNo, String password) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\StaffProfile.cs:line 144
+   at LoginHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\LoginHandler.ashx:line 24
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:53:45] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:53:45] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:06] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:06] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:10] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:10] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:11] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:11] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:12] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:12] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:12] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:12] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:12] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:12] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:13] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:13] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:13] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:13] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:13] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:13] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:13] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:13] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:13] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:13] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:14] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:14] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77
+[2018-04-30 17:54:16] [Error]: The connection was not closed. The connection's current state is open.
+[2018-04-30 17:54:16] [Error]:    at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at OnlineVotePage.GetCreditorVotingInfo(String clientID, String creditorID, String creditType) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\OnlineVotePage.cs:line 325
+   at OnlineVoteHandler.action(String action) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\HttpHandler\OnlineVoteHandler.ashx:line 43
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Ning\Documents\JKTeam\EY\source\app_build\App_Code\HandlerBase.cs:line 77

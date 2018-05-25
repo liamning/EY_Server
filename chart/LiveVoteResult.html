@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        *{
+            padding:0px;margin:0px;
+        } 
+        #myDiv00,#myDiv01,#myDiv02,#myDiv03,#myDiv10,#myDiv11,#myDiv12,#myDiv13{
+            width:25%;
+            float:left;
+        }
+    </style>
+    <script src="jquery.min.js"></script>
+    <script src="plotly-latest.min.js"></script>
+</head>
+<body>
+
+    <div id="myDiv00"></div>
+    <div id="myDiv01"></div>
+    <div id="myDiv02"></div>
+    <div id="myDiv03"></div>
+    <div id="myDiv10"></div>
+    <div id="myDiv11"></div>
+    <div id="myDiv12"></div>
+    <div id="myDiv13"></div>
+    <script>
+
+        var ClientID = getParameterByName('ClientID');
+        var EventID = getParameterByName('EventID');
+        $(function () {
+
+            window.$scope = {};
+            var $scope =  window.$scope;
+             
+            $.ajax({
+                url: "../HttpHandler/AjaxHandler.ashx",
+                type: 'POST',
+                data: { action: "getVotingQuestionList", ClientID: ClientID, EventID: EventID },
+                dataType: "json",
+                error: function (xhr) {
+                    alert("server error");
+                    console.log(xhr); return;
+                },
+                success: function (response) {
+
+                    $scope.QuestionList = response;
+                    $scope.QuestionDict = {};
+                    for (var i = 0, item; item = $scope.QuestionList[i]; i++) {
+                        $scope.QuestionDict[item.QuestionID] = item.AnswerType;
+                    }
+
+                    setInterval(function () {
+
+                        $.ajax({
+                            url: "../HttpHandler/AjaxHandler.ashx",
+                            type: 'POST',
+                            data: { action: "GetVotingResultList", ClientID: ClientID, EventID: EventID },
+                            dataType: "json",
+                            error: function (xhr) {
+                                alert("server error");
+                                console.log(xhr); return;
+                            },
+                            success: function (response) {
+                                console.log(response);
+                                buildChart(response);
+                            }
+                        });
+
+
+                    }, 1000);
+
+
+                }
+            });
+             
+        });
+
+        var lineBreakTitle = function (title, type) {
+
+            if (title.length > 22) {
+                title = title.substring(0, 22) + "<br>" + title.substring(22) + " " + type;
+            } else {
+                title = title + "<br>" + type;
+            }
+            return title;
+        }
+        var buildChart = function (result) {
+ 
+
+            $scope.charts = [];
+            $scope.charts2 = [];
+            var tmpX, tmpY, tmpAnnotations, tmpYAmount;
+            for (var i = 0, item; item = result[i]; i++) {
+                var tmp = {};
+
+                if ($scope.QuestionDict[item.QuestionID] == "2") {
+                    tmpX = ['赞成', '反对', '弃权'];
+                    tmpY = [item.AgressNo, item.DisagressNo, item.AbstentionNo];
+                    tmpYAmount = [item.AgreeAmt, item.DisagreeAmt, item.AbstentionAmt];
+                    tmpAnnotations = [
+                        {
+                            font: {
+                                size: 18
+                            },
+                            showarrow: false,
+                            text: item.AgressNo,
+                            x: 0,
+                            y: 0.2 + item.AgressNo
+                        },
+                        {
+                            font: {
+                                size: 18
+                            },
+                            showarrow: false,
+                            text: item.DisagressNo,
+                            x: 1,
+                            y: 0.2 + item.DisagressNo
+                        },
+                        {
+                            font: {
+                                size: 18
+                            },
+                            showarrow: false,
+                            text: item.AbstentionNo,
+                            x: 2,
+                            y: 0.2 + item.AbstentionNo
+                        },
+                    ];
+                }
+                else {
+                    tmpX = ['赞成', '反对'];
+                    tmpY = [item.AgressNo, item.DisagressNo];
+                    tmpYAmount = [item.AgreeAmt, item.DisagreeAmt];
+                    tmpAnnotations = [
+                        {
+                            font: {
+                                size: 18
+                            },
+                            showarrow: false,
+                            text: item.AgressNo,
+                            x: 0,
+                            y: 0.2 + item.AgressNo
+                        },
+                        {
+                            font: {
+                                size: 18
+                            },
+                            showarrow: false,
+                            text: item.DisagressNo,
+                            x: 1,
+                            y: 0.2 + item.DisagressNo
+                        },
+                    ];
+                }
+
+                tmp.data = [{
+                    x: tmpX,
+                    y: tmpY,
+                    marker: { color: ["Green", "Red", "Blue"] }, 
+                    type: "bar",
+                    hoverinfo: 'none', 
+                    text: [item.AgressNo, item.DisagressNo, item.AbstentionNo],
+                    marker: {
+                        color: ["Green", "Red", "Blue"],
+                        //opacity: 0.2,
+                    }
+                },
+                ];
+
+                tmp.layout = {
+                    title: lineBreakTitle(item.Question, "(票数)"),
+                    margin: { t: 80, b: 40, l: 40, r: 40 },
+                    annotations: tmpAnnotations,
+                };
+                tmp.options = { showLink: false, displayLogo: false };
+                //$scope.charts.push(tmp);
+                Plotly.newPlot('myDiv0' + i, tmp.data, tmp.layout);
+
+                var tmp = {};
+                tmp.data = [{
+                    x: tmpX,
+                    y: tmpYAmount,
+                    marker: { color: ["Green", "Red", "Blue"] }, 
+                    type: "bar", 
+                },
+                ];
+
+                tmp.layout = {
+                    title: lineBreakTitle(item.Question, "(金额)"),
+                    margin: { t: 80, b: 40, l: 40, r: 40 },
+                    annotations: [
+                        {
+                            font: {
+                                size: 20
+                            },
+                            showarrow: false,
+                            text: '',
+                            x: 0.17,
+                            y: 0.5
+                        },
+                    ],
+                };
+
+                //$scope.charts2.push(tmp);
+
+                Plotly.newPlot('myDiv1' + i, tmp.data, tmp.layout);
+            }
+
+        }
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+    </script>
+</body>
+</html>
