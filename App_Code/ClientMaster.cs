@@ -124,6 +124,8 @@ public class ClientMaster
         + ",[RegPlace] "
         + ",[RegNo] "
         + ",[TaxCodeNo] "
+        + ",[OrganizationCode] "
+        + ",[SocialUnifiedCreditCode] "
         + ",[ExternalDebtNo] "
         + ",[RegCapitalCurrency] "
         + ",[RegCapital] "
@@ -167,6 +169,8 @@ public class ClientMaster
         + ",@RegPlace "
         + ",@RegNo "
         + ",@TaxCodeNo "
+        + ",@OrganizationCode "
+        + ",@SocialUnifiedCreditCode "
         + ",@ExternalDebtNo "
         + ",@RegCapitalCurrency "
         + ",@RegCapital "
@@ -429,9 +433,10 @@ order by ClientMaster.ClientID";
     public List<ResponsibleStaffInfo> GetResponsibleStaffList(string clientID)
     {
         db.Open();
-        String query = @"select ResponsibleStaffList.*, StaffProfile.StaffName 
+        String query = @"select ResponsibleStaffList.*, StaffProfile.StaffName, GeneralMaster.ChiDesc ResponsibilityTypeDesc
 from ResponsibleStaffList 
 join StaffProfile on StaffNo = StaffID
+join GeneralMaster on Code = ResponsibilityType and Category= 'staffType'
 Where ClientID = @ClientID ";
         List<ResponsibleStaffInfo> list = (List<ResponsibleStaffInfo>)db.Query<ResponsibleStaffInfo>(query, new { ClientID = clientID });
         db.Close();
@@ -490,6 +495,8 @@ Where ClientID = @ClientID ";
         + ", [RegPlace] = @RegPlace "
         + ", [RegNo] = @RegNo "
         + ", [TaxCodeNo] = @TaxCodeNo "
+        + ", [OrganizationCode] = @OrganizationCode "
+        + ", [SocialUnifiedCreditCode] = @SocialUnifiedCreditCode "
         + ", [ExternalDebtNo] = @ExternalDebtNo "
         + ", [RegCapitalCurrency] = @RegCapitalCurrency "
         + ", [RegCapital] = @RegCapital "

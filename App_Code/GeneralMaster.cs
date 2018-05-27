@@ -160,7 +160,7 @@ public class GeneralMaster
 SELECT  Code Code, ChiDesc [Desc]
 FROM [dbo].[GeneralMaster]
 where Category = @Category 
-and (@Role = '1' or Code != '1')
+and (@Role = '3' or Code != '1')
 order by Seq
                 ";
             List<GeneralCodeDesc> result = (List<GeneralCodeDesc>)this.db.Query<GeneralCodeDesc>(query, new { category = "StaffType", Role = role}); 

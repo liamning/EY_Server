@@ -5,6 +5,7 @@ public class ResponsibleStaffInfo
     public string StaffID { get; set; }
     public string StaffName { get; set; }
     public string ResponsibilityType { get; set; }
+    public string ResponsibilityTypeDesc { get; set; }
     public DateTime? CreateDate { get; set; }
     public string CreateUser { get; set; }
     public DateTime? LastModifiedDate { get; set; }

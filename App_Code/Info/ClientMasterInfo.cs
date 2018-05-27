@@ -9,6 +9,8 @@ public class ClientMasterInfo
     public string RegPlace { get; set; }
     public string RegNo { get; set; }
     public string TaxCodeNo { get; set; }
+    public string OrganizationCode { get; set; }
+    public string SocialUnifiedCreditCode { get; set; }
     public string ExternalDebtNo { get; set; }
     public string RegCapitalCurrency { get; set; }
     public decimal RegCapital { get; set; }
