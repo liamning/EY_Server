@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 public class CreditorMasterInfo
 {
+    public int ID { get; set; }
     public string ClientID { get; set; }
     public string Prefix { get; set; }
     public string CreditorID { get; set; }
@@ -65,6 +66,13 @@ public class CreditorMasterInfo
     public string ThirdBankAccount { get; set; }
     public string LegalOpinion { get; set; }
     public EnumImportStatus ImportStatus { get; set; }
+
+
+    public bool HasSpecialCreditType { get; set; }
+    public string SpecialCreditTypeRemarks { get; set; }
+    public string WarrantyRemarks { get; set; }
+
+
     public DateTime? CreateDate { get; set; }
     public string CreateUser { get; set; }
     public DateTime? LastModifiedDate { get; set; }
@@ -84,7 +92,8 @@ public class CreditorMasterInfo
         None
     }
 
-    public class FieldName {
+    public class FieldName
+    {
         public const string ClientID = "ClientID";
         public const string CreditorID = "CreditorID";
         public const string CreditorType = "CreditorType";
@@ -147,14 +156,4 @@ public class CreditorMasterInfo
         public const string LastModifiedDate = "LastModifiedDate";
         public const string LastModifiedUser = "LastModifiedUser";
     }
-}
-
-public class CreditorPreviewInfo
-{
-    public string CreditorID { get; set; }
-    public string CreditorName { get; set; }
-    public string CreditorType { get; set; }
-    public string Status { get; set; }
-    public string MainCreditor { get; set; }
-
 }

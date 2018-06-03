@@ -1,0 +1,36 @@
+[2018-06-03 16:05:13] [Error]: Object reference not set to an instance of an object.
+[2018-06-03 16:05:13] [Error]:    at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorMaster.Insert(CreditorMasterInfo creditorMasterInfo) in c:\Users\Administrator\documents\project\ey_server\App_Code\CreditorMaster.cs:line 1509
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Administrator\documents\project\ey_server\App_Code\CreditorMaster.cs:line 316
+   at AjaxHandler.action(String action) in c:\Users\Administrator\documents\project\ey_server\HttpHandler\AjaxHandler.ashx:line 106
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Administrator\documents\project\ey_server\App_Code\HandlerBase.cs:line 77
+[2018-06-03 16:08:50] [Error]: Object reference not set to an instance of an object.
+[2018-06-03 16:08:50] [Error]:    at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorMaster.Insert(CreditorMasterInfo creditorMasterInfo) in c:\Users\Administrator\documents\project\ey_server\App_Code\CreditorMaster.cs:line 1509
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Administrator\documents\project\ey_server\App_Code\CreditorMaster.cs:line 316
+   at AjaxHandler.action(String action) in c:\Users\Administrator\documents\project\ey_server\HttpHandler\AjaxHandler.ashx:line 106
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Administrator\documents\project\ey_server\App_Code\HandlerBase.cs:line 77
+[2018-06-03 16:13:59] [Error]: Object reference not set to an instance of an object.
+[2018-06-03 16:13:59] [Error]:    at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorMaster.Insert(CreditorMasterInfo creditorMasterInfo) in c:\Users\Administrator\documents\project\ey_server\App_Code\CreditorMaster.cs:line 1514
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Administrator\documents\project\ey_server\App_Code\CreditorMaster.cs:line 316
+   at AjaxHandler.action(String action) in c:\Users\Administrator\documents\project\ey_server\HttpHandler\AjaxHandler.ashx:line 106
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Administrator\documents\project\ey_server\App_Code\HandlerBase.cs:line 77
+[2018-06-03 16:15:55] [Error]: Object reference not set to an instance of an object.
+[2018-06-03 16:15:55] [Error]:    at Dapper.SqlMapper.<QueryImpl>d__125`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at CreditorMaster.Insert(CreditorMasterInfo creditorMasterInfo) in c:\Users\Administrator\documents\project\ey_server\App_Code\CreditorMaster.cs:line 1514
+   at CreditorMaster.Save(CreditorMasterInfo creditorMasterInfo) in c:\Users\Administrator\documents\project\ey_server\App_Code\CreditorMaster.cs:line 316
+   at AjaxHandler.action(String action) in c:\Users\Administrator\documents\project\ey_server\HttpHandler\AjaxHandler.ashx:line 106
+   at HandlerBase.ProcessRequest(HttpContext context) in c:\Users\Administrator\documents\project\ey_server\App_Code\HandlerBase.cs:line 77

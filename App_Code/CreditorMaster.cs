@@ -1374,8 +1374,13 @@ WHERE ClientID = @ClientID AND CreditorID = @CreditorID order by UpdateDate Desc
     #region Insert
     public CreditorMasterInfo Insert(CreditorMasterInfo creditorMasterInfo)
     {
+        string queryMax = @"select max(ID) + 1 from CreditorMaster where ClientID = @ClientID";
+
+        int id = ((List<int>)db.Query<int>(queryMax, new { ClientID = creditorMasterInfo .ClientID }, transaction))[0];
+        creditorMasterInfo.ID = id;
+
         String query = "INSERT INTO [dbo].[CreditorMaster] "
-                     + "([ClientID] "
+                     + "(ID, [ClientID] "
                      + ",[Prefix] "
                      + ",[CreditorType] "
                      + ",[Status] "
@@ -1432,12 +1437,15 @@ WHERE ClientID = @ClientID AND CreditorID = @CreditorID order by UpdateDate Desc
                      + ",[ThirdBankName] "
                      + ",[ThirdBankAccount] "
                      + ",[LegalOpinion] "
+                    + ",[HasSpecialCreditType] "
+                    + ",[SpecialCreditTypeRemarks] "
+                    + ",[WarrantyRemarks] " 
                      + ",[CreateUser] "
                      + ",[CreateDate] "
                      + ",[LastModifiedUser] "
                      + ",[LastModifiedDate] ) "
                      + "VALUES "
-                     + "(@ClientID "
+                     + "(@ID, @ClientID "
                      + ",@Prefix "
                      + ",@CreditorType "
                      + ",@Status "
@@ -1494,14 +1502,18 @@ WHERE ClientID = @ClientID AND CreditorID = @CreditorID order by UpdateDate Desc
                      + ",@ThirdBankName "
                      + ",@ThirdBankAccount "
                      + ",@LegalOpinion "
+                    + ",@HasSpecialCreditType "
+                    + ",@SpecialCreditTypeRemarks "
+                    + ",@WarrantyRemarks " 
                      + ",@CreateUser "
                      + ",@CreateDate "
                      + ",@LastModifiedUser "
-                     + ",@LastModifiedDate);select SCOPE_IDENTITY();  ";
+                     + ",@LastModifiedDate); ";
 
-        creditorMasterInfo.Prefix = creditorMasterInfo.Prefix ?? "CT";
-        int id = ((List<int>)db.Query<int>(query, creditorMasterInfo, transaction))[0];
-        string tmpString = string.Format("00000000{0}", id);
+        creditorMasterInfo.Prefix = creditorMasterInfo.Prefix ?? "D";
+        db.Query<int>(query, creditorMasterInfo, transaction);
+
+        string tmpString = string.Format("00000000{0}", creditorMasterInfo.ID);
         creditorMasterInfo.CreditorID = creditorMasterInfo.Prefix + tmpString.Substring(tmpString.Length - 8);
 
         if (creditorMasterInfo.CreditorAuditDetailList != null)
@@ -1788,6 +1800,11 @@ WHERE ClientID = @ClientID AND CreditorID = @CreditorID order by UpdateDate Desc
                      + ",[ThirdBankName] = @ThirdBankName "
                      + ",[ThirdBankAccount] = @ThirdBankAccount "
                      + ",[LegalOpinion] = @LegalOpinion "
+
+                    + ", [HasSpecialCreditType] = @HasSpecialCreditType "
+                    + ", [SpecialCreditTypeRemarks] = @SpecialCreditTypeRemarks "
+                    + ", [WarrantyRemarks] = @WarrantyRemarks " 
+
                      + ",[LastModifiedUser] = @LastModifiedUser "
                      + ",[LastModifiedDate] = @LastModifiedDate "
                      + "WHERE ClientID = @ClientID AND CreditorID = @CreditorID";
